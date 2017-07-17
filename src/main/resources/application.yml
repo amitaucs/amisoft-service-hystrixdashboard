@@ -1,0 +1,11 @@
+---
+
+server:
+  port: 9410
+spring:
+  application:
+    name: amisoft-service-hystrixdashboard
+  cloud:
+    consul:
+      host: ${consul.host}
+      port: ${consul.port}
